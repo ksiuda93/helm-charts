@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  go-microservice:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-02-06T21:23:52.314086805Z"
+    description: A Helm chart for Kubernetes
+    digest: caf4e8c7d168ff80f117d17ba7ee033d501e5a5026d365125780156151de7623
+    name: go-microservice
+    type: application
+    urls:
+    - https://github.com/ksiuda93/helm-charts/releases/download/go-microservice-0.2.0/go-microservice-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-02-06T21:23:52.172997412Z"
