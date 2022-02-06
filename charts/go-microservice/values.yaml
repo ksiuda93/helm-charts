@@ -1,0 +1,14 @@
+name: go-microservice
+
+env: dev
+
+replicaCount: 2
+
+image: 
+  name: gh05tsh/go-rest-api
+  tag: main
+  pullPolicy: always
+
+service:
+  type: ClusterIp
+  port: 9090
