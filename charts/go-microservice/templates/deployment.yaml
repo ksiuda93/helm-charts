@@ -19,6 +19,7 @@ spec:
         app: {{ .Values.name }}
         version: {{ .Values.image.tag }}
         env: {{ .Values.env }}
+        app.kubernetes.io/name: {{ .Values.name }}
     spec:
       containers:
       - name: {{ .Chart.Name }}
