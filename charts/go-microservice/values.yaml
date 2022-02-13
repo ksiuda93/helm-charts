@@ -7,7 +7,7 @@ replicaCount: 2
 image: 
   name: gh05tsh/go-rest-api
   tag: main
-  pullPolicy: always
+  pullPolicy: Always
 
 service:
   type: ClusterIP
