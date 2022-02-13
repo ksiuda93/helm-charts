@@ -6,6 +6,7 @@ metadata:
     app: {{ .Values.name }}
     version: {{ .Values.image.tag }}
     env: {{ .Values.env }}
+    app.kubernetes.io/name: {{ .Values.name }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
