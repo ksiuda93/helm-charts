@@ -14,10 +14,10 @@ spec:
       env: {{ .Values.env }}
   template:
     metadata:
-    labels:
-      app: {{ .Values.name }}
-      version: {{ .Values.image.tag }}
-      env: {{ .Values.env }}
+      labels:
+        app: {{ .Values.name }}
+        version: {{ .Values.image.tag }}
+        env: {{ .Values.env }}
     spec:
       containers:
       - name: {{ .Chart.Name }}
